@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ body{
+    font-family: "Lato", sans-serif;
+    margin: 0%;
+    padding: 0%;
+ }
+ /* all style */
+ section{
+    margin: 0px 140px;
+    font-family: "Lato", sans-serif;
+ }
+
+ .all-sub{
+color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+ }
+
+ /* header style */
+ #header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 97px;
+ }
+ .header-bg{
+    background: rgba(229, 84, 115, 0.1);
+ }
+ .head-title{
+color: rgb(39, 39, 39);
+font-size: 80px;
+font-weight:800;
+text-align: left;
+ }
+ .head-des{
+color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .header-text > button{
+      border-radius: 8px;
+      background: rgb(229, 84, 115);
+      padding: 20px 43px;
+      border: none;
+ }
+ .header-text> button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .header-img{
+    margin-top: 50px;
+    width: 600px;
+    height: 800px;
+ }
+
+ /* flower style */
+ #flower-section{
+    margin: 100px 0px ;
+ }
+ .flower-text{
+    text-align: center;
+ }
+ .flower-text > p{
+color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+ }
+.flower-img{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+.flower-tree > img{
+    height: 428px;
+    width: 310px;
+    padding: 110px 78px 0px 76px;
+    border-radius: 300px 300px 0px 0px ;
+}
+.flower-tree > p{
+color: rgb(39, 39, 39);
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+/* about style */
+#about{
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.about-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-img{
+    padding: 88px 0px ;
+    text-align: center;
+}
+.about-img >p{
+color: rgba(39, 39, 39, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+}
+/* hot Seal section */
+#hot-seal{
+    margin-top: 128px;
+    height: 620px;
+    background-color:rgba(229, 84, 115, 0.05) ;
+}
+.hot-seal-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 0px;
+}
+.hot-seal-text > p{
+color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.hot-seal-text > button{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    padding: 20px 43px;
+    border: none;
+    margin-top: 10px;
+}
+.hot-seal-text> button > a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.hot-seal-img > img{
+    width: 318px;
+    height: 420px;
+}
+/* Instagram section */
+#instagram{
+    margin: 132px 0px;
+}
+.instragram-img{
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+/* deals style */
+#deals-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../image/footer.png);
+    background-repeat: no-repeat;
+    height: 449px;
+    margin-bottom: 140px;
+    border-radius: 8px;
+}
+#deals-section > p{
+color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.search > input{
+    width: 700px;
+    height:64px ;
+    border-radius: 5px;
+    border: none;
+    padding-left:20px ;
+    font-size: medium;
+}
+.search > button{
+    margin-top: 10px;
+    height: 64px;
+    margin-left: 10px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(229, 84, 115);
+    color: white;
+    border: none;
+}
+/* footer style */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 128px 0px;
+}
+.footer-text-details > h1{
+font-size: 48px;
+font-weight: 800;
+line-height: 58px;
+letter-spacing: 0%;
+}
+.footer-sub{
+    color: rgb(229, 84, 115);
+}
+.footer-des{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    }
+.footer-copy{
+color: rgba(255, 255, 255, 0.4);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+}    
